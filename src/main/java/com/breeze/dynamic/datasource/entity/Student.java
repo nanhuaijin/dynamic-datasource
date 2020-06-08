@@ -28,6 +28,6 @@ public class Student {
     private Integer age;
 
     @ApiModelProperty("学生班级")
-    private String classname;
+    private String className;
 
 }

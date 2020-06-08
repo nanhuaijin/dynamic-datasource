@@ -28,6 +28,7 @@ spring:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true #开启驼峰匹配
   mapper-locations: classpath:com/breeze/dynamic/datasource/mapper/xml/*.xml
   typeAliasesPackage: com.breeze.dynamic.datasource.entity
   global-config:
