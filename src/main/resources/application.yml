@@ -10,7 +10,7 @@ spring:
     druid:
       db1:
         username: root
-        password: breeze1314520.
+        password: 123456
         driver-class-name: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://localhost:3306/breeze?useUnicode=true&characterEncoding=UTF-8&useSSL=false
         initialSize: 5
@@ -18,7 +18,7 @@ spring:
         maxActive: 20
       db2:
         username: root
-        password: breeze1314520.
+        password: 123456
         driver-class-name: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://localhost:3306/gentle?useUnicode=true&characterEncoding=UTF-8&useSSL=false
         initialSize: 5
